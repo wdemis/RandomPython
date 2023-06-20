@@ -11,7 +11,7 @@ For the **Chicago RuleSet**:
 For the **Indianapolis RuleSet**:
 * Employee first sales event
 
-###Files:
+### Files:
 The POC is comprised of three python program files. 
 * currentStateDataProvider - This file simply acts as a stand in for a database and ORM provider. It is here to represent the "known" state of employee records at any given time.
 * inboundDataProvider - This file simply acts as a stand in for an inbound data event for ingestion. It is here to represent the "changed" state of a set of employee records feed to "the system."
@@ -19,4 +19,4 @@ The POC is comprised of three python program files.
 
 ### Execution
 Execution of the rulesEngine script will produce this output:
-<img src="../Doc/Images/rulesEngine.jpg" alt="Rules Engine in Action" width="800" height="417" />
+<img src="../Doc/Images/rulesEngine.jpg" alt="Rules Engine in Action" width="1000" />
